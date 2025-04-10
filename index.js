@@ -6,6 +6,7 @@ const app = express();
 const port = 3000;
 
 // CORS setup
+//fix deploy
 const corsOptions = {
   origin: "https://masasya-v2.vercel.app",
   methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
